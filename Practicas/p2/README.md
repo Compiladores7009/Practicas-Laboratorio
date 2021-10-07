@@ -71,7 +71,7 @@ $ ./compiler prueba
 #### Extras
 
 4. Incluir lo necesario para producir la misma salida que en la práctica 1 (2 pts.)
-5. Corregir todos los errores ortográficos en los comentarios del código. (0.25pts)
+5. Documentar el código. (0.25pts)
 6. Proponer 4 archivos de prueba nuevos, 2 válidos y 2 inválidos. (0.25pts)
 
 
