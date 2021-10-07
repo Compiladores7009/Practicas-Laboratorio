@@ -32,6 +32,35 @@ $ make
 $ ./compiler prueba
 ```
 
+#### Salida esperada
+```
+INT
+FLOAT
+ID, identificador
+IF
+ELSE
+WHILE
+INT
+NUMERO, 12345
+NUMERO, 1.2e6
+ID, a1
+ID, a_23
+ID, ___
+ID, id2
+ID, if3
+ID, while4
+PYC
+COMA
+LPAR
+RPAR
+INT
+RPAR
+ID, a
+INT
+FLOAT
+RPAR
+PYC
+```
 
 #### Ejercicios
 

@@ -5,6 +5,15 @@
 ### Estructura del directorio
 ```c++
 practica2
+├── src //carpeta de código
+│   ├── tokens.h //definición de tokens
+│   ├── prueba //archivo de entrada para el analizador léxico
+│   ├── main.cpp //contiene la función principal del programa
+│   ├── lexer.ll //definición del analizador léxico en Flex
+│   └── Lexer.h //archivo de cabecera del analizador
+├── README.md 
+└── extras //ejercicios extra
+
 ```
 
 ### Uso
@@ -54,17 +63,16 @@ $ ./compiler prueba
 
 #### Ejercicios
 
-1. Implementar constructor Lexer::**Lexer(string file)** en _Lexer.cpp_. (2.5 pts.)
-2. Documentar Lexer::**openFile(string file)** en  _Lexer.cpp_. (1 pt.)
-3. Implementar método Lexer::**yylex()** _Lexer.cpp_. (2.5 pts.)
+1. Describir el conjunto de terminales y la expresión regular que reconoce a cada uno  en _lexer.ll_. (2.5 pts)
+2. Generar acciones léxicas para cada terminal de nuestro lenguaje en _Lexer.cpp_, de modo que se muestre en pantalla la slida esperada con el archivo _prueba_. (2.5 pts)
+3. Crear un _Makefile_. (1 pt)
 
 ---
 #### Extras
 
-4. Generalizar la implementación para cualquier AFD de entrada. (2 pts.)
+4. Incluir lo necesario para producir la misma salida que en la práctica 1 (2 pts.)
 5. Corregir todos los errores ortográficos en los comentarios del código. (0.25pts)
-6. Traducir el AFD de su tarea en archivo de entrada afd. (1 pts.)
-7. Proponer 4 archivos de prueba nuevos, 2 válidos y 2 inválidos. (0.25pts)
+6. Proponer 4 archivos de prueba nuevos, 2 válidos y 2 inválidos. (0.25pts)
 
 
 
