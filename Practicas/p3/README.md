@@ -3,8 +3,20 @@
 
 
 ### Estructura del directorio
-```bash
-
+```c++
+p3
+├── README.md
+└── src //carpeta de código
+    ├── AL 
+    │   ├── afd //archivo descriptor del AFD y conjunto de símbolos terminales
+    │   ├── Lexer.cpp //código fuente de la clase Lexer
+    │   ├── Lexer.h //header de la clase Lexer
+    │   └── tokens.h //definición de tokens
+    ├── main.cpp //contiene la función principal del programa
+    ├── Makefile //archivo de reglas de compilación 
+    ├── Parser.cpp //código fuente de la clase Parser
+    ├── Parser.h //header de la clase Parser
+    └── prueba //archivo de entrada para el analizador (léxico y sintáctico)
 ```
 
 ### Uso
@@ -47,5 +59,5 @@ Para la gramática G = ( N, Σ, P, S), descrita por las siguientes producciones:
 ---
 #### Extras
 
-10. Documentar el código. (0.25pts)
-11. Proponer 4 archivos de prueba nuevos, 2 válidos y 2 inválidos. (0.25pts)
+9. Documentar el código. (0.25pts)
+10. Proponer 4 archivos de prueba nuevos, 2 válidos y 2 inválidos. (0.25pts)
