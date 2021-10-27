@@ -41,10 +41,10 @@ Para la gramática G = ( N, Σ, P, S), descrita por las siguientes producciones:
 >> declaraciones → declaraciones declaracion | declaracion <br>
 >> declaracion → tipo lista-var **;** <br>
 >> tipo → **int** | **float** <br>
->> lista_var → lista_var **,** identificador | identificador <br>
+>> lista_var → lista_var **,** _**identificador**_ | _**identificador**_ <br>
 >> sentencias → sentencias sentencia | sentencia <br>
->> sentencia → identificador **=** expresion **;** | **if** **(** expresion **)** sentencias **else** sentencias | **while** **(** expresión **)** sentencias <br>
->> expresion → expresion **+** expresion | expresion **-** expresion | expresion __\*__ expresion | expresion **/** expresión | identificador | **_numero_** <br>
+>> sentencia → _**identificador**_ **=** expresion **;** | **if** **(** expresion **)** sentencias **else** sentencias | **while** **(** expresión **)** sentencias <br>
+>> expresion → expresion **+** expresion | expresion **-** expresion | expresion __\*__ expresion | expresion **/** expresión | _**identificador**_ | **_numero_** <br>
 }
 
 1. Determinar en un archivo Readme, en formato Markdown (.md) o LaTeX (.tex) -- con su respectivo PDF, para este último -- , los conjuntos _N_, _Σ_ y el símbolo inicial _S_.  (0.5 pts.)
