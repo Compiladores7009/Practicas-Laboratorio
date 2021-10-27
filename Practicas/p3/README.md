@@ -37,14 +37,14 @@ $ ./compiler prueba
 #### Ejercicios
 Para la gramática G = ( N, Σ, P, S), descrita por las siguientes producciones: 
 > P = {
-	>> programa → declaraciones sentencias
-	>> declaraciones → declaraciones declaracion | declaracion
-	>> declaracion → tipo lista-var ;
-	>> tipo → **int** | **float**
-	>> lista_var → lista_var **,** identificador | identificador
-	>> sentencias → sentencias sentencia | sentencia
-	>> sentencia → identificador **=** expresion **;** | **if** **(** expresion **)** sentencias **else** sentencias | **while** **(** expresión **)** sentencias
-	>> expresion → expresion **+** expresion | expresion **-** expresion | expresion __\*__ expresion | expresion **/** expresión | identificador | **_numero_**
+>> programa → declaraciones sentencias <br>
+>> declaraciones → declaraciones declaracion | declaracion <br>
+>> declaracion → tipo lista-var **;** <br>
+>> tipo → **int** | **float** <br>
+>> lista_var → lista_var **,** identificador | identificador <br>
+>> sentencias → sentencias sentencia | sentencia <br>
+>> sentencia → identificador **=** expresion **;** | **if** **(** expresion **)** sentencias **else** sentencias | **while** **(** expresión **)** sentencias <br>
+>> expresion → expresion **+** expresion | expresion **-** expresion | expresion __\*__ expresion | expresion **/** expresión | identificador | **_numero_** <br>
 }
 
 1. Determinar en un archivo Readme, en formato Markdown (.md) o LaTeX (.tex) -- con su respectivo PDF, para este último -- , los conjuntos _N_, _Σ_ y el símbolo inicial _S_.  (0.5 pts.)
