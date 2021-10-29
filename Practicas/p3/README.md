@@ -45,6 +45,7 @@ Para la gramática G = ( N, Σ, P, S), descrita por las siguientes producciones:
 >> sentencias → sentencias sentencia | sentencia <br>
 >> sentencia → _**identificador**_ **=** expresion **;** | **if** **(** expresion **)** sentencias **else** sentencias | **while** **(** expresión **)** sentencias <br>
 >> expresion → expresion **+** expresion | expresion **-** expresion | expresion __\*__ expresion | expresion **/** expresión | _**identificador**_ | **_numero_** <br>
+>> expresion → **(** expresion **)** <br>
 }
 
 
