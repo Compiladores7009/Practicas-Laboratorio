@@ -7,7 +7,7 @@
 p4
 ├── README.md
 └── src //carpeta de código
-    ├── prueba //prueba para I/O test
+    ├── prueba //archivo para I/O test
     ├── lib //carpeta para bibliotecas
     │   └── FlexLexer.h //archivo de cabecera para autograding (ignorar)
     ├── Makefile //archivo de reglas de compilación
