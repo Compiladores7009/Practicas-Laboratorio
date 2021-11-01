@@ -15,13 +15,12 @@ int line=1;
 
 %%
 
-"e" { return t_e; }
-"d" { return t_d;}
+[ \t\r]+ {}
+"\n" 	 {line++;}
+.    	 { cout << "ERROR LEXICO " << yytext << endl;}
 
-[ \t\r]+   {}
-"\n"    {line++;}
-.   { cout<<"ERROR LEXICO "<<yytext<<endl;}
 %%
+
 int yyFlexLexer::yywrap(){
     return 1;
 }
