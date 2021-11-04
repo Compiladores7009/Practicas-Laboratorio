@@ -69,12 +69,12 @@ Para la gramática G = ( N, Σ, P, S), descrita por las siguientes producciones:
 6. Definir en un comentario de _Symbols.hpp_ la gramática _G'_. (0.05 pts.)
 7. Definir _Σ_ en un _**enum**_ de _Symbols.hpp_. (0.10 pts.)
 8. Definir _N'_ en un _**enum**_ de _Symbols.hpp_. (0.10 pts.)
-9. Cargar _Σ_ en _ParserLL.cpp_. (0.25 pts.) 
+9. Cargar _N' ∪ Σ_ en _ParserLL.cpp_. (0.25 pts.) 
 10. Cargar _P'_ en _ParserLL.cpp_. (0.25 pts.)
-12. Cargar la tabla de análisis sintáctico predictivo en _ParserLL.cpp_. (0.25 pts.)
-13. Implementar el algoritmo de análisis sintáctico de descenso predictivo en _ParserLL.cpp_ de modo que el programa acepte el archivo _prueba_. (4 pts.)
+11. Cargar la tabla de análisis sintáctico predictivo en _ParserLL.cpp_. (0.25 pts.)
+12. Implementar el algoritmo de análisis sintáctico de descenso predictivo en _ParserLL.cpp_ de modo que el programa acepte el archivo _prueba_. (4 pts.)
 ---
 #### Extras
 
-14. Documentar el código. (0.25pts)
-15. Proponer 4 archivos de prueba nuevos, 2 válidos y 2 inválidos. (0.25pts)
+13. Documentar el código. (0.25pts)
+14. Proponer 4 archivos de prueba nuevos, 2 válidos y 2 inválidos. (0.25pts)
