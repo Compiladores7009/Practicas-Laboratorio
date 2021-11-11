@@ -39,7 +39,7 @@ $ make
 #### Ejecucion
 
 ```bash
-$ ./compiler prueba
+$ ./comp prueba
 ```
 
 #### Ejercicios
@@ -60,7 +60,7 @@ Para la gramática G = ( N, T, P, S), descrita por las siguientes producciones:
 1. Determinar en un archivo Readme, en formato Markdown (.md) o LaTeX (.tex) - con su respectivo PDF, para este último - , los conjuntos _N_, _T_ y el símbolo inicial _S_.  (0.5 pts.) <br>
     a. Mostrar en el archivo el proceso para aumentar la gramática a _G'_. (0.25 pts.) <br>
     b. Mostrar en el archivo la construcción de la tabla de transiciones del autómata LR. (1 pt.) <br>
-    c. Mostrar en el archivo la construcción de los conjuntos FIRST de la gramática _G_. (0.5 pt.) 
+    c. Mostrar en el archivo la construcción de los conjuntos FIRST de la gramática _G_. (0.5 pts.) <br>
     d. Mostrar en el archivo la construcción de los conjuntos FOLLOW de la gramática _G_. (0.5 pts.)
 2. Mostrar en el archivo la construcción de la tabla de análisis sintáctico LR (ACCION y GOTO). (1 pt.)
 3. Sustituir el contenido del Analizador Léxico (lexer.ll) con el implementado en la segunda práctica. (0.5 pts.)
@@ -70,7 +70,7 @@ Para la gramática G = ( N, T, P, S), descrita por las siguientes producciones:
 7. Cargar  _N ∪ T_ en _ParserLR.cpp_. (0.25 pts.) 
 8. Cargar _P'_ en _ParserLR.cpp_. (0.25 pts.)
 9. Cargar la tabla de análisis sintáctico LR en _ParserLR.cpp_. (0.25 pts.)
-10. Implementar el algoritmo de análisis sintáctico ascendente LR en _ParserLR.cpp_ de modo que el programa acepte el archivo _prueba_. (4 pts.)
+10. Implementar el algoritmo de análisis sintáctico ascendente LR en _ParserLR.cpp_ de modo que el programa acepte el archivo _prueba_. (4.5 pts.)
 ---
 #### Extras
 
